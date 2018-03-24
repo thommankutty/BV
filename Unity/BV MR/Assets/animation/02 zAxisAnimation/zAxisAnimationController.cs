@@ -7,18 +7,20 @@ public class zAxisAnimationController : MonoBehaviour {
     public Animator armAnim;
 
     // testing for sounds
-    public AudioClip musicClip;
-    public AudioSource musicSource;
+    public AudioClip musicClipOne;
+    // public AudioClip musicClipTwo;
+    public AudioSource musicSourceOne;
+    // public AudioSource musicSourceTwo;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         armAnim = GetComponent<Animator>();
 
         // testing 
-        musicSource.clip = musicClip;
-        
-	}
+        musicSourceOne.clip = musicClipOne;
+        // musicSourceTwo.clip = musicClipTwo;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -28,8 +30,8 @@ public class zAxisAnimationController : MonoBehaviour {
             armAnim.Play("zAxisAnimation_out");
 
             // testing
-            musicSource.Play();
-          
+            musicSourceOne.Play();
+           // musicSourceTwo.Play();
         };
         
 	}
