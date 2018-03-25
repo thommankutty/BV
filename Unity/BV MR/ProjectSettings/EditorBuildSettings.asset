@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/splashScreen.unity
     guid: 4a2937cf1ea90ac40890f6e0ffa69ee3
-  - enabled: 1
+  - enabled: 0
     path: Assets/lightTesting.unity
     guid: 456baf66b6aba5042a490635fc58b1fb
+  - enabled: 1
+    path: Assets/hologramTest.unity
+    guid: 75271052f2b0e8a4ba6672327f065403
