@@ -33,6 +33,11 @@ public class zAxisAnimationController : MonoBehaviour {
             musicSourceOne.Play();
            // musicSourceTwo.Play();
         };
-        
-	}
+
+        if (Input.GetKeyDown("x"))
+        {
+            armAnim.Play("zAxisAnimationIn");
+        }
+
+    }
 }

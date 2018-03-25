@@ -31,6 +31,11 @@ public class cameraAnimationController : MonoBehaviour {
             cameraAudioSourceOne.Play();
             // cameraAudioSourceTwo.Play();
         };
+
+        if (Input.GetKeyDown("s"))
+        {
+            cameraAnim.Play("cameraAnimationIn");
+        }
 		
 	}
 }
