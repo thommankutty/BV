@@ -587,7 +587,7 @@ PlayerSettings:
     WindowsStoreApps:
       AllJoyn: False
       BlockedChatMessages: False
-      Bluetooth: False
+      Bluetooth: True
       Chat: False
       CodeGeneration: False
       EnterpriseAuthentication: False
@@ -605,7 +605,7 @@ PlayerSettings:
       Proximity: False
       RemovableStorage: False
       SharedUserCertificates: False
-      SpatialPerception: False
+      SpatialPerception: True
       UserAccountInformation: False
       VideosLibrary: False
       VoipCall: False
